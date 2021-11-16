@@ -1,0 +1,145 @@
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(150deg,#24305e 60%,#f76c6c 0);
+    background-repeat: no-repeat;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+button {
+    transition-duration: 0.4s;
+}
+
+div {
+    transition-duration: 0.4s;
+}
+
+.navbar {
+    position: fixed;
+    width:50vw;
+    height: 10vh;
+    margin-left: 25vw;
+}
+
+.with_background {
+    background: rgba(50, 50, 50, 1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+}
+
+.navbar button {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    color: #a8d0e6;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #374785;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+    font-size: 1.5em;
+}
+
+.active {
+    background: #374785 !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+    font-size: 1.5em !important;
+}
+
+.home {
+    float: left;
+    height: 90vh;
+    width: 80vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    text-align: left;
+}
+
+.home h3 {
+    color: white;
+}
+
+.home h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.home h2 {
+    color: white;
+    font-size: 2em;
+}
+
+.home button {
+    float: left;
+    margin: 0;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    color: #a8d0e6;
+    font-size: 2em;
+    cursor: pointer;
+    width: 5vw;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.home button:hover {
+    background: #374785 !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+}
+
+.about {
+    float: left;
+    height: 90vh;
+    width: 100vw;
+    margin-top: 10vh;
+    text-align: left;
+}
+
+.about .left {
+    float: left;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+
+.about .left p {
+    width: 50%;
+    transition-duration: 0.4s;
+}
+
+.about .right {
+    float: left;
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 1.5em;
+}
+
+.about .right h2 {
+    width: 30%;
+    margin-left: 70%;
+    transition-duration: 0.4s;
+}
+
+.about .right table {
+    margin-left: 70%;
+}
