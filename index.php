@@ -103,6 +103,16 @@
                     <div class = "project-button"><button onclick = "goTo('pos');">Visit</button></div>
                 </div>
             </div>
+            <div id = "notification" onmouseenter = "showDescription(this);" onmouseleave = "hideDescription(this);" class = "project-item">
+                <div id = "notification-show" class = "project-show">
+                    <div class = "project-icon c-blue"><i class="fa-solid fa-bell"></i></div>
+                    <div class = "project-title">Notification</div>
+                </div>
+                <div id = "notification-hidden" class = "project-hidden">
+                    <div class = "project-description"><p>A simple toast notification made from jquery</p></div>
+                    <div class = "project-button"><button onclick = "goTo('notification');">Visit</button></div>
+                </div>
+            </div>
         </div>
         <div class = "contact" id = "contact">
             <br>

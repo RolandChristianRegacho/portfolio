@@ -42,6 +42,10 @@ function goTo(form) {
         window.open("https://1pos.1teqproviders.com.ph/")
         return
     }
+    if(form == "notification") {
+        window.open("https://github.com/naseGaming/notification-too")
+        return
+    }
     $('body').animate({
         scrollTop: pixels
     }, 1000);
