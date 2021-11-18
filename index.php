@@ -6,12 +6,13 @@
 		<meta name = "viewport" content = "width=device-width, initial-scale=1">
 		<meta http-equiv="Cache-control" content="public">
 		<link rel = "shortcut icon" href = "design/icon/favicon.ico" type = "image/x-icon">
-        <link rel = "stylesheet" type = "text/css" href = "design/index.css" />
-        <!--<link rel = "stylesheet" type = "text/css" href = "design/index.min.css" />-->
+        <!--<link rel = "stylesheet" type = "text/css" href = "design/index.css" />-->
+        <link rel = "stylesheet" type = "text/css" href = "design/index.min.css" />
         <script src = "https://kit.fontawesome.com/8b6b1fa9e8.js" crossorigin="anonymous"></script>
         <script src = "src/jquery-3.5.1.min.js"></script>
         <script src = "src/jquery-ui.min.js"></script>
-        <script src = "src/index.js"></script>
+        <!--<script src = "src/index.js"></script>-->
+        <script src = "src/index.min.js"></script>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
