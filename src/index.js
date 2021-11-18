@@ -35,11 +35,11 @@ function goTo(form) {
         return
     }
     if(form == "clicktitans") {
-        window.open("https://github.com/naseGaming/ClickTitans")
+        window.open("https://github.com/RolandChristianRegacho/ClickTitans")
         return
     }
     if(form == "gradeportal") {
-        window.open("https://github.com/naseGaming/onlineGrading")
+        window.open("https://github.com/RolandChristianRegacho/onlineGrading")
         return
     }
     if(form == "pos") {
@@ -47,7 +47,7 @@ function goTo(form) {
         return
     }
     if(form == "notification") {
-        window.open("https://github.com/naseGaming/notification-too")
+        window.open("https://github.com/RolandChristianRegacho/notification-too")
         return
     }
     $('body').animate({
