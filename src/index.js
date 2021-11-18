@@ -1,4 +1,8 @@
 $(() => {
+    $("#home").show("slide", {
+        direction: "left"
+    }, 2000)
+
     $("body").scroll(() => {
         if($("body").scrollTop()) { //abuse 0 == false :)
             $(".navbar").addClass("with_background")

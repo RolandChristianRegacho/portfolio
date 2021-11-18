@@ -17,10 +17,6 @@ button {
     transition-duration: 0.4s;
 }
 
-div {
-    transition-duration: 0.4s;
-}
-
 .navbar {
     position: fixed;
     width:50vw;
@@ -88,6 +84,7 @@ div {
 }
 
 .home {
+    display: none;
     float: left;
     height: 600px;
     width: 80vw;
@@ -103,6 +100,14 @@ div {
 .home h1 {
     color: white;
     font-size: 4em;
+    cursor: pointer;
+    width:fit-content;
+    transition-duration: 0.5s;
+}
+
+.home h1:hover {
+    color: silver;
+    font-size: 5em;
 }
 
 .home h2 {
