@@ -44,7 +44,7 @@
             <br>
             <h3>Hi!</h3>
             <h1>I'm Roland</h1>
-            <h2>Junior Web Developer</h2>
+            <h2>Web Developer</h2>
             <button onclick = "goTo('twitter');"><i class="fa-brands fa-twitter"></i></button>
             <button onclick = "goTo('facebook');"><i class="fa-brands fa-facebook"></i></button>
             <button onclick = "goTo('contact');"><i class="fa-brands fa-google"></i></button>
@@ -120,6 +120,16 @@
                 <div id = "notification-hidden" class = "project-hidden">
                     <div class = "project-description"><p>A simple toast notification made from jquery</p></div>
                     <div class = "project-button"><button onclick = "goTo('notification');">Visit</button></div>
+                </div>
+            </div>
+            <div id = "socialmedia" onmouseenter = "showDescription(this);" onmouseleave = "hideDescription(this);" class = "project-item">
+                <div id = "socialmedia-show" class = "project-show">
+                    <div class = "project-icon c-blue"><i class="fa-solid fa-people-arrows"></i></div>
+                    <div class = "project-title">Social Crowd</div>
+                </div>
+                <div id = "socialmedia-hidden" class = "project-hidden">
+                    <div class = "project-description"><p>A Social media app made using HTML, JQuery, Vue.js and PHP.</p></div>
+                    <div class = "project-button"><button onclick = "goTo('social');">Visit</button></div>
                 </div>
             </div>
         </div>

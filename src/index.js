@@ -50,6 +50,11 @@ function goTo(form) {
         window.open("https://github.com/RolandChristianRegacho/notification-too")
         return
     }
+    if(form == "social") {
+        window.open("https://github.com/RolandChristianRegacho/social_media_using_vue")
+        window.location.href = "https://github.com/RolandChristianRegacho/social_media_api"
+        return
+    }
     $('body').animate({
         scrollTop: pixels
     }, 1000);
