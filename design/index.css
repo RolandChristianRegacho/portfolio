@@ -340,6 +340,10 @@ button {
         padding-right: 10px;
     }
 
+    .about {
+        height: 800px;
+    }
+
     .about .left {
         font-size: 1.2em;
     }
@@ -349,7 +353,7 @@ button {
     }
 
     .about .right h2 {
-        margin-top: 30%;
+        margin-top: 10%;
         margin-left: 35%;
     }
 
@@ -359,7 +363,7 @@ button {
     }
 
     .project {
-        height: 900px;
+        height: 1200px;
     }
 
     .project-item {
